@@ -52,7 +52,7 @@ const Login = () => {
           
           {
             isValid ? (<Button disabled={isValid} title="Entrar"/>) 
-                    : (<Button disabled={isValid} title="Desativado"/>)
+                    : (<Button disabled={isValid} title="Entrar"/>)
           }
 
         </Column>
